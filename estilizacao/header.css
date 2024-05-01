@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    padding: 2rem 0rem;
+}
+
+.header_nav{
+    display: flex;
+    gap: 0.8rem;
+    list-style-type: none;
+}
+
+.header_nav__item a{
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 0.75em 1.15em;
+    border: .1rem solid;
+}
+
+.header_nav__item a:hover{
+    background-color: black;
+    text-shadow: 0 0 1rem var(--primary-color);
+    box-shadow: 0 0 .7rem var(--primary-color);
+}
