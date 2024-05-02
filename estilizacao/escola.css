@@ -1,0 +1,15 @@
+.escola{
+    display: flex;
+    color: #fafafa;
+    gap: 40px;
+    padding-top: 5rem;
+}
+
+.escola_content{
+    margin-top: 1rem;
+}
+
+.escola_content p{
+    font-size: 2rem;
+    line-height: 3rem;
+}

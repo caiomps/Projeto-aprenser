@@ -1,0 +1,17 @@
+.text_contato{
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+.endereco{
+    text-align: right;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.footer{
+    padding: 4rem;
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+}

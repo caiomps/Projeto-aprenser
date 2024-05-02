@@ -1,0 +1,42 @@
+.cursos{
+    text-align: center;
+    padding-bottom: 7rem;
+}
+
+.text_cursos{
+    padding: 6rem 0;
+    font-size: 5rem;
+}
+
+.cursos_conteiner{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 6rem;
+}
+
+.cursos_card{
+    border: 1px solid #949494;
+    padding-bottom: 5rem;
+    text-align: left;
+    margin-bottom: 1rem;
+    flex: 1;
+    box-shadow: 0 0 .5rem var(--color-dark);
+    border-radius: 2rem;
+}
+
+.cursos_card img{
+    margin-bottom: 2.3rem;
+    width: 100%;
+}
+
+.cursos_card__content{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    margin-left: 1rem;
+}
+
+.btn_cursos{
+    color: black;
+    box-shadow: 0 0 1rem var(--color-dark);
+}

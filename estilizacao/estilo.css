@@ -1,6 +1,9 @@
 @import url(reset.css);
 @import url(header.css);
 @import url(heroBanner.css);
+@import url(cursos.css);
+@import url(escola.css);
+@import url(mapa.css);
 
 :root{
     --primary-color: #FED001;
@@ -19,7 +22,15 @@ p, a{
 }
 
 h1{
-    font-size: 4.8rem;
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3.2rem;
 }
 
 .upper{
@@ -40,6 +51,10 @@ h1{
 
 .wrapper_container-hero{
     background-image: linear-gradient(white, yellow);
+}
+
+.wrapper_container-light{
+    background-color: #fafafa;
 }
 
 .wrapper_container-dark2{
